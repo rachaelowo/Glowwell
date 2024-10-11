@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cart - GlowWell Skincare</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">GlowWell</div>
+        <ul class="nav-links">
+            <li><a href="Home.html"><i class="fas fa-home"></i></a></li>
+            <li><a href="Products.html"><i class="fas fa-box-open"></i></a></li>
+            <li><a href="cart.html"><i class="fas fa-shopping-cart"></i></a></li>
+            <li><a href="Checkout.html"><i class="fas fa-store"></i></a></li>
+            <li><a href="About us.html"><i class="fas fa-users"></i></a></li>
+            <li><a href="Contactform.html"><i class="fas fa-envelope-open-text"></i></a></li>
+        </ul>
+    </nav>
+    <section class="cart-section">
+        <h1>Your Shopping Cart</h1>
+        <br>
+        <br>
+        <div class="cart-container">
+            <table class="cart-table">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                        <th>Remove</th>
+                    </tr>
+                </thead>
+                <tbody id="cart-items">
+                    <tr>
+                        <td>Radiance Revive Serum</td>
+                        <td><input type="number" value="1" min="1"></td>
+                        <td>$45.00</td>
+                        <td>$45.00</td>
+                        <td><button class="remove-btn">Remove</button></td>
+                    </tr>
+                    <tr>
+                        <td>HydraBloom Moisturizer</td>
+                        <td><input type="number" value="1" min="1"></td>
+                        <td>$35.00</td>
+                        <td>$35.00</td>
+                        <td><button class="remove-btn">Remove</button></td>
+                    </tr>
+                    <tr>
+                        <td>GlowWell Detox Mask</td>
+                        <td><input type="number" value="1" min="1"></td>
+                        <td>$30.00</td>
+                        <td>$30.00</td>
+                        <td><button class="remove-btn">Remove</button></td>
+                    </tr>
+                    <tr>
+                        <td>LumiDew Hydrating Cream</td>
+                        <td><input type="number" value="1" min="1"></td>
+                        <td>$40.00</td>
+                        <td>$40.00</td>
+                        <td><button class="remove-btn">Remove</button></td>
+                    </tr>
+                    <tr>
+                        <td>GlowBoost Vitamin C Serum</td>
+                        <td><input type="number" value="1" min="1"></td>
+                        <td>$50.00</td>
+                        <td>$50.00</td>
+                        <td><button class="remove-btn">Remove</button></td>
+                    </tr>
+                    <tr>
+                        <td>SmoothSands Exfoliating Scrub</td>
+                        <td><input type="number" value="1" min="1"></td>
+                        <td>$25.00</td>
+                        <td>$25.00</td>
+                        <td><button class="remove-btn">Remove</button></td>
+                    </tr>
+                    <tr>
+                        <td>GlowWash Brightening Cleanser</td>
+                        <td><input type="number" value="1" min="1"></td>
+                        <td>$28.00</td>
+                        <td>$28.00</td>
+                        <td><button class="remove-btn">Remove</button></td>
+                    </tr>
+                    <tr>
+                        <td>PureBloom Daily Moisturizer</td>
+                        <td><input type="number" value="1" min="1"></td>
+                        <td>$32.00</td>
+                        <td>$32.00</td>
+                        <td><button class="remove-btn">Remove</button></td>
+                    </tr>
+                    <tr>
+                        <td>Glowshield Spf</td>
+                        <td><input type="number" value="1" min="1"></td>
+                        <td>$32.00</td>
+                        <td>$32.00</td>
+                        <td><button class="remove-btn">Remove</button></td>
+                    </tr>
+                    <tr>
+                        <td>Revive Night Cream</td>
+                        <td><input type="number" value="1" min="1"></td>
+                        <td>$32.00</td>
+                        <td>$32.00</td>
+                        <td><button class="remove-btn">Remove</button></td>
+                    </tr>
+                    <tr>
+                        <td>Silk Glow Eyecream</td>
+                        <td><input type="number" value="1" min="1"></td>
+                        <td>$32.00</td>
+                        <td>$32.00</td>
+                        <td><button class="remove-btn">Remove</button></td>
+                    </tr>
+                    <tr>
+                        <td>Nourish And Renew mask</td>
+                        <td><input type="number" value="1" min="1"></td>
+                        <td>$32.00</td>
+                        <td>$32.00</td>
+                        <td><button class="remove-btn">Remove</button></td>
+                    </tr>
+                    <tr>
+                        <td>GlowBloom Bar</td>
+                        <td><input type="number" value="1" min="1"></td>
+                        <td>$32.00</td>
+                        <td>$32.00</td>
+                        <td><button class="remove-btn">Remove</button></td>
+                    </tr>
+                    <tr>
+                        <td>GoldenAura Soap</td>
+                        <td><input type="number" value="1" min="1"></td>
+                        <td>$32.00</td>
+                        <td>$32.00</td>
+                        <td><button class="remove-btn">Remove</button></td>
+                    </tr>
+                    <tr>
+                        <td>Moonlight Lather</td>
+                        <td><input type="number" value="1" min="1"></td>
+                        <td>$32.00</td>
+                        <td>$32.00</td>
+                        <td><button class="remove-btn">Remove</button></td>
+                    </tr>
+                    <tr>
+                        <td>GlowBar Essential</td>
+                        <td><input type="number" value="1" min="1"></td>
+                        <td>$32.00</td>
+                        <td>$32.00</td>
+                        <td><button class="remove-btn">Remove</button></td>
+                    </tr>
+                    <tr>
+                        <td>GlowFusion Bar</td>
+                        <td><input type="number" value="1" min="1"></td>
+                        <td>$32.00</td>
+                        <td>$32.00</td>
+                        <td><button class="remove-btn">Remove</button></td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <br>
+            <br>
+
+            <div class="cart-summary">
+                <h2>Order Summary</h2>
+                <div class="summary-item">
+                    <span>Subtotal:</span>
+                    <span id="subtotal">$0.00</span>
+                </div>
+                <br>
+                <div class="summary-item">
+                    <span>Tax (8%):</span>
+                    <span id="tax">$0.00</span>
+                </div>
+                <br>
+                <div class="summary-item total">
+                    <span>Total:</span>
+                    <span id="total">$0.00</span>
+                </div>
+                <br>
+                <button class="btn"><a href="checkout.html">Go to Checkout</a></button>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <footer id="contact" class="footer">
+        <p>&copy; 2024 GlowWell Skincare | Designed for Natural Beauty</p>
+        <ul class="social-links">
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+        </ul>
+        </div>
+    </footer>
+</body>
+</html>
