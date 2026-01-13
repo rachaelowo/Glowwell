@@ -10,46 +10,66 @@ body {
     background-color:  #ECF0F1;
     color: #333333;
     text-align: center;
+    margin-left: 70px;
+    padding: 20px;
 }
 
 .navbar {
-    background-color: #2C3E50;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
+    position: fixed;
     top: 0;
-    z-index: 1000;
+    left: 0;
+    width: 100px; /* Adjust the width to fit content */
+    height: 100%; /* Full height of the viewport */
+    background-color: #2C3E50; /* Dark background color */
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    align-items: center; /* Center content horizontally */
+    padding-top: 20px; /* Add padding at the top */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5); /* Optional: add shadow for effect */
 }
 
 .navbar .logo {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.8rem;
+    font-size: 20px;
     font-weight: bold;
     color: #ECF0F1;
+    margin-bottom: 30px; /* Space between logo and links */
+    text-align: center; /* Center the logo text */
 }
 
 .nav-links {
     list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%; /* Full width for links */
+    display: flex;
+    flex-direction: column; /* Stack links vertically */
+    align-items: center; /* Center the links */
 }
 
 .nav-links li {
-    display: inline;
-    margin: 0 15px;
+    margin: 10px 0; /* Vertical spacing between links */
 }
 
 .nav-links a {
     text-decoration: none;
     color: #ECF0F1;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: bold;
     transition: color 0.3s;
+    padding: 12px 20px; /* Add padding for larger clickable area */
+    width: 100%; /* Make links fill the width */
+    text-align: center; /* Center the link text */
+    background-color: transparent; /* Transparent background by default */
+    border-radius: 5px; /* Rounded corners */
 }
 
 .nav-links a:hover {
-    color: #F39C12;
+    color: #F39C12; /* Change text color on hover */
+    background-color: #34495E; /* Optional: Change background on hover */
 }
+
+
 
 .head {
     height: 60vh;
@@ -136,9 +156,10 @@ textarea {
 
 .product-card {
     background-color: #FFFFFF;
-    border-radius: 10px;
-    padding: 1rem;
+    border-radius: 0;
+    padding:0;
     height: 100;
+    font-size: small;
     text-align: center;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s;
